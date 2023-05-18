@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
+header{
+    position: fixed;
+    z-index: 100;
+}
+
 :root{
     --yellow:#dba819;
     --white:#FFF;
@@ -135,6 +140,42 @@
     width: 100%;
     clip-path: circle();
     background-color: var(--yellow);
+}
+
+
+.home-btn{
+    padding: 15px 45px;
+    background: var(--yellow);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.home-btn:hover{
+    cursor: pointer;
+    background: #c29313;
+}
+
+.services{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7% 10%;
+    flex-direction: row;
+}
+
+.services-text{
+    max-width: 37rem;
+}
+
+.services-text h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
 }
 
 @media (max-width:785px){
