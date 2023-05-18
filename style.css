@@ -133,6 +133,8 @@
 
 .home-img img{
     width: 100%;
+    clip-path: circle();
+    background-color: var(--yellow);
 }
 
 @media (max-width:785px){
